@@ -16,7 +16,7 @@ function edit(id) {
 <template>
     <Navbar />
 
-    <div class="container mt-25" style="background-color: #fff">
+    <div class="container" style="background-color: #fff;margin-top: 150px;">
         <div v-if="$page.props.flash.message" class="alert alert-success">
             <strong>{{ $page.props.flash.message }}</strong>
         </div>
